@@ -21,6 +21,7 @@
 		357889F218DA24980001A0EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357889D418DA24970001A0EE /* UIKit.framework */; };
 		357889FA18DA24980001A0EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 357889F818DA24980001A0EE /* InfoPlist.strings */; };
 		357889FC18DA24980001A0EE /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 357889FB18DA24980001A0EE /* FarkleTests.m */; };
+		35788A0618DA24B30001A0EE /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35788A0518DA24B30001A0EE /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		357889F718DA24980001A0EE /* FarkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarkleTests-Info.plist"; sourceTree = "<group>"; };
 		357889F918DA24980001A0EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		357889FB18DA24980001A0EE /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		35788A0518DA24B30001A0EE /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35788A0618DA24B30001A0EE /* CheckMate.framework in Frameworks */,
 				357889D318DA24970001A0EE /* CoreGraphics.framework in Frameworks */,
 				357889D518DA24970001A0EE /* UIKit.framework in Frameworks */,
 				357889D118DA24970001A0EE /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		357889CF18DA24970001A0EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35788A0518DA24B30001A0EE /* CheckMate.framework */,
 				357889D018DA24970001A0EE /* Foundation.framework */,
 				357889D218DA24970001A0EE /* CoreGraphics.framework */,
 				357889D418DA24970001A0EE /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kellemeans/Desktop/Treehouse/MMakers,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
 				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kellemeans/Desktop/Treehouse/MMakers,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
 				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
